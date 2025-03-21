@@ -177,16 +177,17 @@
   }
   
   .about .text-wrapper-5 {
+    position: fixed;
     top: 21px;
-    left: 62px;
+    right: 35px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     font-size: 25px;
     white-space: nowrap;
-    position: absolute;
     color: #ffffff;
     letter-spacing: 0;
     line-height: normal;
+    z-index: 1000;
   }
   
   .about .projects {
@@ -199,9 +200,9 @@
   }
   
   .about .text-wrapper-6 {
-    position: absolute;
+    position: fixed;
     top: 21px;
-    left: 45px;
+    right: 200px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #ffffff;
@@ -209,6 +210,7 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    z-index: 1000;
   }
   
   .about .div-wrapper-2 {
@@ -221,9 +223,9 @@
   }
   
   .about .text-wrapper-7 {
-    position: absolute;
+    position: fixed;
     top: 21px;
-    left: 44px;
+    right: 400px; /* Always 200px away from the right edge */
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
     color: #ffffff;
@@ -231,6 +233,7 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    z-index: 1000; /* Ensure it stays on top of other elements */
   }
   
   .about .title {
