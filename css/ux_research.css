@@ -1,0 +1,348 @@
+.UX-research {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .UX-research .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1507px;
+    position: relative;
+  }
+  
+  .UX-research .footer {
+    position: absolute;
+    width: 1442px;
+    height: 150px;
+    top: 1357px;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  .UX-research .overlap {
+    position: relative;
+    width: 1440px;
+    height: 150px;
+    background-color: #000000;
+  }
+  
+  .UX-research .text-wrapper {
+    position: absolute;
+    top: 75px;
+    left: 1167px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .UX-research .navigation {
+    position: absolute;
+    width: 436px;
+    height: 55px;
+    top: 47px;
+    left: 100px;
+  }
+  
+  .UX-research .overlap-group {
+    position: absolute;
+    width: 345px;
+    height: 30px;
+    top: 25px;
+    left: 0;
+  }
+  
+  .UX-research .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Inter-ExtraLight", Helvetica;
+    font-weight: 200;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .UX-research .home {
+    position: absolute;
+    width: 51px;
+    height: 22px;
+    top: 4px;
+    left: 0;
+  }
+  
+  .UX-research .text-wrapper-3 {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .UX-research .UI-projects {
+    position: absolute;
+    width: 93px;
+    height: 22px;
+    top: 4px;
+    left: 88px;
+  }
+  
+  .UX-research .UX-projects {
+    position: absolute;
+    width: 100px;
+    height: 22px;
+    top: 4px;
+    left: 223px;
+  }
+  
+  .UX-research .text-wrapper-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .UX-research .contact {
+    position: absolute;
+    width: 68px;
+    height: 22px;
+    top: 29px;
+    left: 364px;
+  }
+  
+  .UX-research .line {
+    position: absolute;
+    width: 1px;
+    height: 952px;
+    top: 240px;
+    left: 605px;
+    object-fit: cover;
+  }
+  
+  .UX-research .element-manipulation {
+    position: absolute;
+    width: 636px;
+    height: 300px;
+    top: 892px;
+    left: 710px;
+  }
+  
+  .UX-research .overlap-2 {
+    position: relative;
+    width: 630px;
+    height: 300px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: #000000;
+  }
+  
+  .UX-research .rectangle {
+    position: absolute;
+    width: 210px;
+    height: 300px;
+    top: -2px;
+    left: -2px;
+    background-color: #7c7c7c;
+    border-radius: 15px 0px 0px 15px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-color: #000000;
+  }
+  
+  .UX-research .p {
+    position: absolute;
+    width: 315px;
+    top: 148px;
+    left: 228px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #262626;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .UX-research .carnegie-mellon {
+    position: absolute;
+    top: 72px;
+    left: 228px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .UX-research .text-wrapper-5 {
+    position: absolute;
+    top: 24px;
+    left: 228px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .UX-research .gym-ease {
+    position: absolute;
+    width: 636px;
+    height: 300px;
+    top: 567px;
+    left: 710px;
+  }
+  
+  .UX-research .text-wrapper-6 {
+    position: absolute;
+    width: 319px;
+    top: 148px;
+    left: 228px;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #262626;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .UX-research .ebike-pro {
+    position: absolute;
+    width: 636px;
+    height: 300px;
+    top: 242px;
+    left: 710px;
+  }
+  
+  .UX-research .title {
+    position: fixed;
+    width: 462px;
+    height: 407px;
+    top: 108px;
+    left: 100px;
+  }
+  
+  .UX-research .text-wrapper-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 100px;
+    letter-spacing: 0;
+    line-height: 100px;
+  }
+  
+  .UX-research .text-wrapper-8 {
+    position: absolute;
+    width: 420px;
+    top: 245px;
+    left: 0;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .UX-research .header {
+    position: fixed;
+    width: 1440px;
+    height: 75px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+  }
+  
+  .UX-research .div-wrapper {
+    position: absolute;
+    width: 224px;
+    height: 75px;
+    top: 0;
+    left: 1216px;
+    background-color: #000000;
+  }
+  
+  .UX-research .text-wrapper-9 {
+    top: 21px;
+    left: 62px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 25px;
+    white-space: nowrap;
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .UX-research .projects {
+    position: absolute;
+    width: 191px;
+    height: 75px;
+    top: 0;
+    left: 1025px;
+    background-color: #000000;
+  }
+  
+  .UX-research .text-wrapper-10 {
+    position: absolute;
+    top: 21px;
+    left: 45px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .UX-research .about {
+    position: absolute;
+    width: 164px;
+    height: 75px;
+    top: 0;
+    left: 861px;
+    background-color: #000000;
+  }
+  
+  .UX-research .text-wrapper-11 {
+    position: absolute;
+    top: 21px;
+    left: 44px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
