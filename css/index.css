@@ -434,3 +434,11 @@
   .dropdown-content:hover {
     display: block;
   }
+
+  .about .linked-in:hover {
+    background-color: #0072b1;
+  }
+
+  .about .download-CV:hover {
+    background-color: #44bb1f;
+  }
