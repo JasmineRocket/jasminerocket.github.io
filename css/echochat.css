@@ -141,9 +141,10 @@
     position: absolute;
     width: 414px;
     height: 565px;
-    top: 0;
-    left: 925px;
+    top: 0px;
+    right: 10px;
     object-fit: cover;
+    object-position: bottom;
   }
   
   .echo-chat .title {
@@ -222,6 +223,10 @@
     line-height: normal;
     white-space: nowrap;
   }
+
+  .echo-chat .UI-design-2.hover {
+    color: #44bb1f;
+  }
   
   .echo-chat .try-it-out {
     position: absolute;
@@ -231,6 +236,10 @@
     left: 1137px;
     background-color: #000000;
     border-radius: 10px;
+  }
+
+  .echo-chat .try-it-out:hover {
+    background-color: #44bb1f;
   }
   
   .echo-chat .text-wrapper-7 {
