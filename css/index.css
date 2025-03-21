@@ -194,11 +194,11 @@
   }
   
   .about .projects {
-    position: absolute;
-    width: 191px;
+    position: fixed;
+    width: 185px;
     height: 75px;
     top: 0;
-    left: 1025px;
+    right: 165px;
     background-color: #000000;
   }
   
@@ -215,14 +215,35 @@
     white-space: nowrap;
     z-index: 1000;
   }
+
+  /* .about .text-wrapper-6:hover {
+    color: #44bb1f;
+  } */
+
+  .about .projects:hover {
+    background-color: #44bb1f; 
+  }
+
+  .about .projects:hover + .dropdown-content {
+    display: block;
+  }
+
+  .about .div-wrapper:hover {
+    background-color: #44bb1f;
+  }
+
+  .about .div-wrapper-2:hover {
+    background-color: #44bb1f;
+  }
   
   .about .div-wrapper-2 {
-    position: absolute;
+    position: fixed;
     width: 164px;
     height: 75px;
     top: 0;
-    left: 861px;
+    right: 350px;
     background-color: #000000;
+    z-index: 1000;
   }
   
   .about .text-wrapper-7 {
@@ -272,8 +293,8 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    top: 16px;
-    left: 482px;
+    top: 17px;
+    left: 479px;
     background-color: #44bb1f;
     border-radius: 15px;
     border: 2px solid;
@@ -362,3 +383,54 @@
     white-space: nowrap;
   }
   
+  /* .about .projects {
+    position: fixed;
+    width: 185px;
+    height: 75px;
+    top: 0;
+    right: 165px;
+    background-color: #000000;
+  } */
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    top: 75px;
+    right: 165px;
+    height: 150px;
+    background-color: #000000;
+    width: 185px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: white;
+    height: 75px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 75px; /* Center text vertically */
+    display: block;
+    text-align: center; /* Center text horizontally */
+  }
+
+  .dropdown-content a:hover {
+    background-color: #44bb1f;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content,
+  .dropdown-content:hover {
+    display: block;
+  }

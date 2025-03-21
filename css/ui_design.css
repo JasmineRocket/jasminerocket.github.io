@@ -411,3 +411,14 @@
     line-height: normal;
   }
   
+  .UI-design .projects:hover {
+    background-color: #44bb1f;
+  }
+
+  .UI-design .div-wrapper:hover {
+    background-color: #44bb1f;
+  }
+
+  .UI-design .div-wrapper-2:hover {
+    background-color: #44bb1f;
+  }
