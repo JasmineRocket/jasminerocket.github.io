@@ -9,7 +9,7 @@
   }
   
   .UI-design .div {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     overflow: hidden;
     width: 1440px;
     height: 1507px;
@@ -246,6 +246,10 @@
     border: 2px solid;
     border-color: #000000;
   }
+
+  .UI-design .echo-chat:hover {
+    background-color: #81ba70;
+  }
   
   .UI-design .img {
     position: absolute;
@@ -409,16 +413,4 @@
     font-size: 22px;
     letter-spacing: 0;
     line-height: normal;
-  }
-  
-  .UI-design .projects:hover {
-    background-color: #44bb1f;
-  }
-
-  .UI-design .div-wrapper:hover {
-    background-color: #44bb1f;
-  }
-
-  .UI-design .div-wrapper-2:hover {
-    background-color: #44bb1f;
   }
