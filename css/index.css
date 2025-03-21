@@ -161,12 +161,13 @@
   }
   
   .about .header {
-    position: absolute;
+    position: fixed;
     width: 1440px;
     height: 75px;
     top: 0;
     left: 0;
     background-color: #000000;
+    z-index: 1000;
   }
   
   .about .div-wrapper {
